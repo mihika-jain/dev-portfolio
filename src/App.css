@@ -33,7 +33,7 @@
   width: 0;
 }
 
- .navbar__link:hover::after {
+.navbar__link:hover::after {
   visibility: visible;
   width: 40%;
 }
