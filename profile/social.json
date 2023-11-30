@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/mihika-jain2/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/mihika-jain"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:mj434@cornell.edu"
+        }
+    ]
+}

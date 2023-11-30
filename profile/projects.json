@@ -1,0 +1,62 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/DBMS.png",
+            "title": "Database Management System",
+            "bodyText": " - Created a database management system \n - Parsed SQL queries, created and optimized a logical query plan to execute, created system to convert binary files into data tuples for manipulation \n -  Executed query plan through physical operator implementations and wrote received result data back into binary file format.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/odessathompson/DBPrac"
+                }
+            ],
+            "tags" : [
+                "Java"
+            ]
+        },
+        {
+            "image" : "images/projects/ASR.png",
+            "title": "Transcription for Spoken Word Project",
+            "bodyText": "- Created a speech recognition software tool for multi-word sequences from a basic English lexicon \n - Tuned the system using unigram word and silent state probabilities to achieve a word error rate (WER) of 0.4 \n -  Implemented pruning (to weed out low probability hypotheses), tree structured lexicons, and bigram probabilities to further lower WER",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/odessathompson/asr_coursework"
+                }
+            ],
+            "tags" : [
+                "Python"
+            ]
+        },
+        {
+            "image" : "images/projects/spotify.png", 
+            "title": "Music Trends through Spotify",
+            "bodyText": "- Implemented an app using Spotify’s API and MongoDB\n - Analyzed current music trends through music attributes from popular charting songs (and playlists like Billboard’s Top 100) to predict future ones \n - Stored data in MongoDB database",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mihika-jain/musicApp"
+                }
+            ],
+            "tags" : [
+                "MongoDB", 
+                "Python"
+            ]
+        }, 
+        {
+            "image" : "images/projects/graphics.png",
+            "title": "Computer Graphics Bot Video Game",
+            "bodyText": " - Utilized ray tracing, intersection, shading, filtering, texture mapping, particle system manipulation, and cubic Bezier splines to implement a three-dimensional terrain scape where a user is attacked by converging bots \n -  The user can move, change perspective, shoot particles, and if contact is detected between the user and the bots, their health goes down incrementally",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.coecis.cornell.edu/oet4/CS4620_C2"
+                }
+            ],
+            "tags" : [
+                "Typescript", 
+                "Computer Graphics"
+            ]
+        }
+    ]
+}

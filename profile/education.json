@@ -1,0 +1,19 @@
+{
+    "education":[
+        {
+            "title": "Sep 2020 - Dec 2023",
+            "cardTitle": "Bachelors of Science, Computer Science",
+            "cardSubtitle":"Cornell University, College of Engineering",
+            "cardDetailedText": "Ithaca, NY",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Sep 2016 - May 2020",
+            "cardTitle": "High School",
+            "cardSubtitle":"Greenwich Academy, Greenwich CT",
+            "cardDetailedText": "Global Scholar, AP Scholar with distinction, National Merit Commended Scholar"
+        }
+    ]
+}
