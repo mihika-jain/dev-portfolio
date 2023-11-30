@@ -26,8 +26,8 @@ export const darkTheme = {
   color: '#DDFFF7',
   accentColor: '#8D6A9F',
   chronoTheme: {
-    cardBgColor: '#023C40',
-    cardForeColor: '#DDFFF7',
+    cardBgColor: '#DDFFF7',
+    cardForeColor: '#023C40',
     titleColor: '#DDFFF7',
   },
   timelineLineColor: '#8D6A9F',
