@@ -1,7 +1,7 @@
 {
     "projects" : [
         {
-            "image" : "/dev-portfolio/images/projects/DBMS.png",
+            "image" : "/dev-portfolio/images/projects/dbms.png",
             "title": "Database Management System",
             "bodyText": "Spent a semester in a team of four developing and optimizing a Database Management System. The system parses queries and binary data and outputs query results into binary files. We support different join operations as well as indexing. We optimized the system by utilizing our logical and physical plan builders to push intensive operations up or down the left deep tree. This project greatly develop my understanding of database systems as well as my team-working, time management and communication skills.",
             "links": [
