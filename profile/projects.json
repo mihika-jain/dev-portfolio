@@ -1,13 +1,17 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/DBMS.png",
+            "image" : "/dev-portfolio/images/projects/DBMS.png",
             "title": "Database Management System",
-            "bodyText": " - Created a database management system \n - Parsed SQL queries, created and optimized a logical query plan to execute, created system to convert binary files into data tuples for manipulation \n -  Executed query plan through physical operator implementations and wrote received result data back into binary file format.",
+            "bodyText": "Spent a semester in a team of four developing and optimizing a Database Management System. The system parses queries and binary data and outputs query results into binary files. We support different join operations as well as indexing. We optimized the system by utilizing our logical and physical plan builders to push intensive operations up or down the left deep tree. This project greatly develop my understanding of database systems as well as my team-working, time management and communication skills.",
             "links": [
                 {
                     "text": "GitHub",
                     "href": "https://github.com/odessathompson/DBPrac"
+                }, 
+                {
+                    "text": "Optimization Report",
+                    "href": "https://drive.google.com/file/d/1fJ5gm_cEgoJmRaKAQGTqS6PJKFA4CCsL/view?usp=sharing"
                 }
             ],
             "tags" : [
@@ -15,13 +19,17 @@
             ]
         },
         {
-            "image" : "images/projects/ASR.png",
+            "image" : "/dev-portfolio/images/projects/ASR.png",
             "title": "Transcription for Spoken Word Project",
-            "bodyText": "- Created a speech recognition software tool for multi-word sequences from a basic English lexicon \n - Tuned the system using unigram word and silent state probabilities to achieve a word error rate (WER) of 0.4 \n -  Implemented pruning (to weed out low probability hypotheses), tree structured lexicons, and bigram probabilities to further lower WER",
+            "bodyText": "I worked in a group of two to create and optimize a speech recognition software tool for multi-word sequences from a basic English lexicon. We used unigram word and silent state probabilities, pruning (to weed out low probability hypotheses), tree structured lexicons, and bigram probabilities to further lower WER (word error rate) from an initial 0.4. This project helped me gain exposure to machine learning models and language modeling. I conducted this project during my study abroad semester and was able to make connections with different students and new staff at the University of Edinburgh.",
             "links": [
                 {
                     "text": "GitHub",
                     "href": "https://github.com/odessathompson/asr_coursework"
+                }, 
+                {
+                    "text": "Report",
+                    "href": "https://drive.google.com/file/d/1gSYIIpKoU-0gCdcBlquCRputUcQLh_Zq/view?usp=sharing"
                 }
             ],
             "tags" : [
@@ -29,9 +37,9 @@
             ]
         },
         {
-            "image" : "images/projects/spotify.png", 
+            "image" : "/dev-portfolio/images/projects/spotify.png", 
             "title": "Music Trends through Spotify",
-            "bodyText": "- Implemented an app using Spotify’s API and MongoDB\n - Analyzed current music trends through music attributes from popular charting songs (and playlists like Billboard’s Top 100) to predict future ones \n - Stored data in MongoDB database",
+            "bodyText": "I had been really curious about MongoDB and I love music so I decided to start a personal project to analyze music trends using Spotify’s API. I pulled and stored musicality data like danceability, intrumentalness, liveness, speechiness, etc. Then I came up with an algorithm to decide what attributes were most popular that week.",
             "links": [
                 {
                     "text": "GitHub",
@@ -44,9 +52,9 @@
             ]
         }, 
         {
-            "image" : "images/projects/graphics.png",
+            "image" : "/dev-portfolio/images/projects/graphics.png",
             "title": "Computer Graphics Bot Video Game",
-            "bodyText": " - Utilized ray tracing, intersection, shading, filtering, texture mapping, particle system manipulation, and cubic Bezier splines to implement a three-dimensional terrain scape where a user is attacked by converging bots \n -  The user can move, change perspective, shoot particles, and if contact is detected between the user and the bots, their health goes down incrementally",
+            "bodyText": "I worked in a team of 3 to create a video game focused on computer graphics. We were able to utilize rat tracing, intersection, shading, filtering, texture mapping, particle system manipulation, and cubic Bezier Splices to implement a three-dimensional terrain scape. In the game, a user is attached my converging bots. The user can move, change perspective, and shoot particles. If contact is detected between the user and the bots, their health goes down incrementally until 0 when the game ends. I learned computer graphics principles and gained more experience with working in Typescript.",
             "links": [
                 {
                     "text": "GitHub",

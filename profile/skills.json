@@ -6,27 +6,27 @@
             "items" : [
      
                 {
-                    "icon": "images/skills/java.png",
+                    "icon": "dev-portfolio/images/skills/java.png",
                     "title": "Java"
                 },
                 {
-                    "icon": "images/skills/js.png",
+                    "icon": "dev-portfolio/images/skills/js.png",
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "images/skills/python.png",
+                    "icon": "dev-portfolio/images/skills/python.png",
                     "title": "Python"
                 },
                 {
-                    "icon": "images/skills/mysql.png",
+                    "icon": "dev-portfolio/images/skills/mysql.png",
                     "title": "MySQL"
                 }, 
                 {
-                    "icon": "images/skills/ocaml.png",
+                    "icon": "dev-portfolio/images/skills/ocaml.png",
                     "title": "OCaml"
                 }, 
                 {
-                    "icon": "images/skills/c.png",
+                    "icon": "dev-portfolio/images/skills/c.png",
                     "title": "C"
                 }
             
@@ -36,7 +36,7 @@
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/react.png",
+                    "icon": "dev-portfolio/images/skills/react.png",
                     "title": "React"
                 }
             ]
@@ -45,15 +45,15 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/aws.png",
+                    "icon": "dev-portfolio/images/skills/aws.png",
                     "title": "AWS"
                 },
                 {
-                    "icon": "images/skills/git.png",
+                    "icon": "dev-portfolio/images/skills/git.png",
                     "title": "Git"
                 },
                 {
-                    "icon": "images/skills/azure.png",
+                    "icon": "dev-portfolio/images/skills/azure.png",
                     "title": "Azure"
                 }
             ]

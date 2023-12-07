@@ -5,9 +5,7 @@
             "subtitle": "Landmark, Halliburton, Houston TX",
             "workType": "Internship",
             "workDescription": [
-                "Designed and implemented an app for 5000+ clients to access and transfer large amounts of data between cloud services and their local drive on the iEnergy infrastructure team.",
-                "Gained familiarity with SoftNAS, Azure, AWS SDKs along with JavaFX and Java for full stack development; gained experience with IaC tools including Terraform and Ansible.",
-                "Presented and demoed my application as a solution to a board of managers across departments."
+                "I spent the summer working for Landmark’s cloud engineering team. On this team, I was assigned a project to design and implement a data transfer application. I implemented this project with AWS and Azure Java SDKs and JavaFX. I was able to learn about Azure and AWS infrastructures, security methods, and IaC tools (like Terraform and Ansible)."
             ],
             "dateText": "06/2023 – 08/2023"
         },
@@ -16,10 +14,7 @@
             "subtitle": "AssuredPartners, Cranford NJ",
             "workType": "Internship",
             "workDescription": [
-                "Worked on designing an automation solution to cut down time spent on filling in renewal sheets by 90%.",
-                "Assisted in migration from old angular to new angular, attended daily scrum calls, unit and smoke tested, deployed code.",
-                "Generated, pitched, and demoed a company improving idea to executives and over 200 employees with a team of interns.",
-                "Top 8 of 25 team to make it to the final round. Enforced teamworking, and leadership skills."
+                "I spent the summer working for AssuredPartners primarily assisting with web migration from old angular to new angular. I also worked on a cross-disciplinary intern team to research and pitch a company improving idea. Finally, I was able to use the research to design an automation solution and cut down time spent on filling in renewal sheets by 90%."
             ],
             "dateText": "06/2022 – 08/2022"
         },
@@ -28,9 +23,7 @@
             "subtitle": "Stoneview Technologies, Greenwich CT",
             "workType": "Internship",
             "workDescription": [
-                "Worked on development of program to pull, validate, and further analyze and quantify stock data for daily and repetitive use.",
-                "Wrote Python ETL loaders to load stock and dividend data from Quandl, used SQL queries to validate and analyze data.",
-                "Exposure to financial technology. Enforced communication and conflict resolution skills."
+                "I spent the summer working for Stoneview Technologies, a hedge fund. I gained a foundational understanding of financial topics, utilizing skills I have learned in my business minor. Technically, I focussed on loading data with Python ETL loads from Quandl and writing queries to pull and validate data."
             ],
             "dateText": "06/2020 – 08/2021"
         },
@@ -39,9 +32,7 @@
             "subtitle": "Microsoft, Virtual",
             "workType": "Mentorship",
             "workDescription": [
-                "Applied and accepted to a program to cultivate technical resilience.",
-                "Participated in weekly and individual meetings forging connections with Microsoft mentors and other students. Worked on personal growth to aid technical endeavors.", 
-                "Worked on developing a growth mindset."
+                "I participated in a Microsoft mentorship program to cultivate technical resilience. I received a mentor and worked with them and my mentorship group to forge connection. This program helped me develop a growth mindset and connected me further with the computer science community."
 
             ],
             "dateText": "01/2021 – 05/2021"
