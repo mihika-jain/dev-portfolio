@@ -23,23 +23,23 @@ export const lightTheme = {
 
 export const darkTheme = {
   background: '#1C0221',
-  color: '#DDFFF7',
+  color: '#FFFFFF',
   accentColor: '#8D6A9F',
   chronoTheme: {
-    cardBgColor: '#DDFFF7',
+    cardBgColor: '#e6e1f9',
     cardForeColor: '#023C40',
-    titleColor: '#DDFFF7',
+    titleColor: '#FFFFFF',
   },
   timelineLineColor: '#8D6A9F',
-  cardBackground: '#DDFFF7',
-  cardFooterBackground: '#48A9A6',
+  cardBackground: '#e6e1f9',
+  cardFooterBackground: '#8D6A9F',
   cardBorderColor: '#2C302E',
   navbarTheme: {
     linkColor: '#F5EFFF',
     linkHoverColor: '#eee',
     linkActiveColor: '#eee',
   },
-  bsPrimaryVariant: '#DDFFF7',
+  bsPrimaryVariant: '#FFFFFF',
   bsSecondaryVariant: 'dark',
-  socialIconBgColor: '#DDFFF7',
+  socialIconBgColor: '#FFFFFF',
 };

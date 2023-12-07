@@ -56,7 +56,53 @@ function About(props) {
                     {parseIntro(data.about)}
                   </Col>
                   <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
+                    <div style={{ position: 'relative' }}>
+                      <img
+                        src={data?.imageSource}
+                        alt="profile"
+                        style={{
+                          borderRadius: '10px',
+                          width: '340px',
+                          height: '360px',
+                        }}
+                      />
+                    </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col style={styles.introTextContainer}>
+                    <img
+                      src={data?.imageSource2}
+                      alt="profile"
+                      style={{
+                        borderRadius: '10px',
+                        width: '500px',
+                        height: '360px',
+                        marginTop: '20px',
+                        marginRight: '40px',
+                      }}
+                    />
+                    <img
+                      src={data?.imageSource3}
+                      alt="profile"
+                      style={{
+                        borderRadius: '10px',
+                        width: '280px',
+                        height: '360px',
+                        marginTop: '20px',
+                        marginRight: '40px',
+                      }}
+                    />
+                    <img
+                      src={data?.imageSource4}
+                      alt="profile"
+                      style={{
+                        borderRadius: '10px',
+                        width: '280px',
+                        marginTop: '20px',
+                        height: '360px',
+                      }}
+                    />
                   </Col>
                 </Row>
               </Fade>

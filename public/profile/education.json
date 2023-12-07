@@ -1,19 +1,25 @@
 {
-    "education":[
+    "education": [
         {
-            "title": "Sep 2020 - Dec 2023",
-            "cardTitle": "Bachelors of Science, Computer Science",
-            "cardSubtitle":"Cornell University, College of Engineering",
-            "cardDetailedText": "Ithaca, NY",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
+            "title": "Cornell University",
+            "subtitle": "Computer Science, College of Engineering",
+            "workDescription": [
+                "Cornell Hyperloop project team: I worked on the electrical team in the GUI subteam. We worked on coming up with visualizers to track battery cell data. I worked on cross-disciplinary collaboration, teamwork, and practiced working in an agile development pattern.", 
+                "Sigma Delta Tau: As the panhellenic representative on executive board for Sigma Delta Tau, I met weekly with representatives from every other sorority on campus to discuss prominent issues in greek life and advocate for the women in my community.", 
+                "Society of Women Engineers: On the alumni relations committee for SWE at Cornell I was able to help plan networking events and communication streams between students and alumni in the organization to help cultivate a community of empowered female engineers.", 
+                "Cornell Medium Design Collective: Working with a team of designers to conduct interviews and research for a proposed semesterly project. Our most recent project was a spotify redesign that allowed for easier music sharing and the creation of music auras. Developed UI/UX eye and creativity in design.", 
+                "Cornell Varsity Sailing Team: Spent time as a student Athlete training and competing for Cornell's Varsity Sailing Team as a crew.", 
+                "Study Abroad: Spent the semester studying at the University of Edinburgh where I was able to integrate myself into a different community and make connections and relationships with Computer Scientists and other students from across the world.",
+                "Women in Computing at Cornell: General Assembly member."
+            ],
+            "dateText": "09/2020 – 12/2023"
         },
         {
-            "title": "Sep 2016 - May 2020",
-            "cardTitle": "High School",
-            "cardSubtitle":"Greenwich Academy, Greenwich CT",
-            "cardDetailedText": "Global Scholar, AP Scholar with distinction, National Merit Commended Scholar"
+            "title": "Greenwich Academy",
+            "workDescription": [
+                "Varsity Sailing Team, Model UN, Math Team, Global Scholars Program, Volleyball team, Youth Philharmonic"
+            ],
+            "dateText": "09/2016 – 05/2020"
         }
     ]
 }
