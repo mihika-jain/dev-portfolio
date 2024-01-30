@@ -1,10 +1,13 @@
 {
     "experiences": [
         {
-            "title": "Full Stack Engineer Intern", 
-            "subtitle": "Summus", 
-            "workType": "Internship", 
-            "dateText": "04/2024 - 08/2024"
+            "title": "Full Stack Engineer Intern",
+            "subtitle": "Summus, New york NY",
+            "workType": "Internship",
+            "workDescription": [
+                "Beginning in April."
+            ],
+            "dateText": "04/2024 – 08/2024"
         },
         {
             "title": "Cloud and Software Engineer Intern",
