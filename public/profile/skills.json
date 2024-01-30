@@ -1,32 +1,32 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "intro": "",
     "skills": [{
      
             "title": "Languages & Databases",
             "items" : [
      
                 {
-                    "icon": "dev-portfolio/images/skills/java.png",
+                    "icon": "/dev-portfolio/images/skills/java.png",
                     "title": "Java"
                 },
                 {
-                    "icon": "dev-portfolio/images/skills/js.png",
+                    "icon": "/dev-portfolio/images/skills/js.png",
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "dev-portfolio/images/skills/python.png",
+                    "icon": "/dev-portfolio/images/skills/python.png",
                     "title": "Python"
                 },
                 {
-                    "icon": "dev-portfolio/images/skills/mysql.png",
+                    "icon": "/dev-portfolio/images/skills/mysql.png",
                     "title": "MySQL"
                 }, 
                 {
-                    "icon": "dev-portfolio/images/skills/ocaml.png",
+                    "icon": "/dev-portfolio/images/skills/ocaml.png",
                     "title": "OCaml"
                 }, 
                 {
-                    "icon": "dev-portfolio/images/skills/c.png",
+                    "icon": "/dev-portfolio/images/skills/c.png",
                     "title": "C"
                 }
             
@@ -36,7 +36,7 @@
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "dev-portfolio/images/skills/react.png",
+                    "icon": "/dev-portfolio/images/skills/react.png",
                     "title": "React"
                 }
             ]
@@ -45,15 +45,15 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "dev-portfolio/images/skills/aws.png",
+                    "icon": "/dev-portfolio/images/skills/aws.png",
                     "title": "AWS"
                 },
                 {
-                    "icon": "dev-portfolio/images/skills/git.png",
+                    "icon": "/dev-portfolio/images/skills/git.png",
                     "title": "Git"
                 },
                 {
-                    "icon": "dev-portfolio/images/skills/azure.png",
+                    "icon": "/dev-portfolio/images/skills/azure.png",
                     "title": "Azure"
                 }
             ]
