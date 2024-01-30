@@ -1,6 +1,11 @@
 {
     "education": [
         {
+            "title": "Cornell Tech", 
+            "subtitle": "Master of Engineering, Computer Science",
+            "dateText": "9/2024 – 5/2025"
+        },
+        {
             "title": "Cornell University",
             "subtitle": "Computer Science, College of Engineering",
             "workDescription": [
