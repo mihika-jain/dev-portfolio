@@ -1,3 +1,5 @@
+import 'react-image-gallery/styles/css/image-gallery.css';
+import ImageGallery from 'react-image-gallery';
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Container, Col, Row } from 'react-bootstrap';
@@ -6,6 +8,7 @@ import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
+import '../css/imageGallery.css';
 
 const styles = {
   introTextContainer: {
@@ -27,6 +30,37 @@ const styles = {
 function About(props) {
   const { header } = props;
   const [data, setData] = useState(null);
+
+  const images = [
+    {
+      original: data?.imageSource8,
+      thumbnail: data?.imageSource8,
+    },
+    {
+      original: data?.imageSource2,
+      thumbnail: data?.imageSource2,
+    },
+    {
+      original: data?.imageSource3,
+      thumbnail: data?.imageSource3,
+    },
+    {
+      original: data?.imageSource4,
+      thumbnail: data?.imageSource4,
+    },
+    {
+      original: data?.imageSource5,
+      thumbnail: data?.imageSource5,
+    },
+    {
+      original: data?.imageSource6,
+      thumbnail: data?.imageSource6,
+    },
+    {
+      original: data?.imageSource7,
+      thumbnail: data?.imageSource7,
+    },
+  ];
 
   const parseIntro = (text) => (
     <ReactMarkdown
@@ -70,39 +104,11 @@ function About(props) {
                   </Col>
                 </Row>
                 <Row>
+                  {/* Replace images with the ImageGallery component */}
                   <Col style={styles.introTextContainer}>
-                    <img
-                      src={data?.imageSource2}
-                      alt="profile"
-                      style={{
-                        borderRadius: '10px',
-                        width: '500px',
-                        height: '360px',
-                        marginTop: '20px',
-                        marginRight: '40px',
-                      }}
-                    />
-                    <img
-                      src={data?.imageSource3}
-                      alt="profile"
-                      style={{
-                        borderRadius: '10px',
-                        width: '280px',
-                        height: '360px',
-                        marginTop: '20px',
-                        marginRight: '40px',
-                      }}
-                    />
-                    <img
-                      src={data?.imageSource4}
-                      alt="profile"
-                      style={{
-                        borderRadius: '10px',
-                        width: '280px',
-                        marginTop: '20px',
-                        height: '360px',
-                      }}
-                    />
+                    <div className="custom-image-gallery">
+                      <ImageGallery items={images} />
+                    </div>
                   </Col>
                 </Row>
               </Fade>

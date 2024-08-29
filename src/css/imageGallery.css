@@ -1,0 +1,16 @@
+.custom-image-gallery {
+    max-width: 1135px; /* Adjust to your desired width */
+ 
+  }
+  
+  /* Adjust size of the gallery images */
+  .image-gallery-slide img {
+    width: 100%; /* Make images fill the width of the gallery */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Adjust size of thumbnails if you're using them */
+  .image-gallery-thumbnail {
+    width: 80px; /* Adjust thumbnail size */
+    height: auto; /* Maintain aspect ratio */
+  }
