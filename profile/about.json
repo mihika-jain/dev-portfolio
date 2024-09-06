@@ -1,7 +1,11 @@
 {
-    "about": "Welcome to my page! My name is Mihika Jain, and I am a senior at Cornell University studying Computer Science with a minor in Business. I am incredibly passionate about software development and entrepreneurship. I want to use my skillset to be able to implement technology that pushes innovation and creates social impact. \n\n I am interested in both back end and full stack development and thrive in collaborative environments. I find my greatest strengths in leadership, creativity, and resilience. Outside of computer science, I am passionate about music, snowboarding, sailing, and being outdoors!",
+    "about": "Welcome to my page! My name is Mihika Jain, and I am an Master of Engineering student at Cornell Tech studying Computer Science. I am incredibly passionate about software development and entrepreneurship. I want to use my skillset to be able to implement technology that pushes innovation and creates social impact. \n\n I am interested in both back end and full stack development and thrive in collaborative environments. I find my greatest strengths in leadership, creativity, and resilience. Outside of computer science, I am passionate about music, snowboarding, sailing, and being outdoors! \n\n I am currently open to work and looking for post grad full-time job opportunities in software engineering!",
     "imageSource": "/dev-portfolio/images/about/profile.png", 
     "imageSource2": "/dev-portfolio/images/about/sailing.png", 
     "imageSource3": "/dev-portfolio/images/about/scotland.png", 
-    "imageSource4": "/dev-portfolio/images/about/boats.png"
+    "imageSource4": "/dev-portfolio/images/about/boats.png",
+    "imageSource5": "/dev-portfolio/images/about/hiking.jpg",
+    "imageSource6": "/dev-portfolio/images/about/surfing.jpg",
+    "imageSource7": "/dev-portfolio/images/about/cambodia.jpg", 
+    "imageSource8": "/dev-portfolio/images/about/grad.jpg"
 }
