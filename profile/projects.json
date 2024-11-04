@@ -1,9 +1,23 @@
 {
     "projects" : [
         {
+            "image" : "/dev-portfolio/images/projects/minitorch.png",
+            "title": "Minitorch",
+            "bodyText": "During a semester-long individual project, I developed a streamlined deep learning framework called Minitorch, designed to re-implement the Torch API in Python. I implemented automatic differentiation with both forward and backward propagation to enable efficient gradient computation for neural network training. I also designed tensor operations to support element-wise functions, broadcasting, and reductions, facilitating complex mathematical operations on multi-dimensional arrays. Additionally, I created modules for neural network support, including layers, activation functions, and loss functions, along with utilities for model initialization and parameter management. I designed and optimized the model training processes in a series of modules, enhancing computational efficiency.",
+            "links": [
+                {
+                    "text": "Minitorch Framework",
+                    "href": "https://minitorch.github.io/"
+                }
+            ],
+            "tags" : [
+                "Python"
+            ]
+        },
+        {
             "image" : "/dev-portfolio/images/projects/dbms.png",
             "title": "Database Management System",
-            "bodyText": "Spent a semester in a team of four developing and optimizing a Database Management System. The system parses queries and binary data and outputs query results into binary files. We support different join operations as well as indexing. We optimized the system by utilizing our logical and physical plan builders to push intensive operations up or down the left deep tree. This project greatly develop my understanding of database systems as well as my team-working, time management and communication skills.",
+            "bodyText": "I spent a semester in a team of four developing and optimizing a Database Management System (DBMS) that reads tuples from binary formats, parses SQL queries, and outputs results into binary files. The system supports multiple join operations, including selection, sort-merge join, and index, block, and tuple nested loop joins, along with an indexing schema. Additionally, we optimized the system by using logical and physical plan builders to strategically place intensive operations up or down the left-deep tree. This dynamic programming query optimization algorithm reduced processing time by over 70%. This project not only deepened my understanding of database systems but also developed my teamwork, time management, and communication skills as we worked closely to meet project milestones and refine system performance.",
             "links": [
                 {
                     "text": "GitHub",
@@ -37,9 +51,27 @@
             ]
         },
         {
+            "image" : "/dev-portfolio/images/projects/diabetes.png",
+            "title": "Identifying Trends in Diabetes Patients",
+            "bodyText": "Using the PCS (Predictability, Computability, and Stability) framework, I worked in a group of 2 to analyze 2016 and 2017 National Health Interview Survey (NHIS) datasets to build a model that predicts an individual’s diabetes risk factor, supporting preventive health measures. Predictability focused on testing generalizability of model to other datasets; computability emphasized efficient handling of large datasets and minimizing processing time; and stability used bootstrap means to ensure consistency of dataset sampling. For the model itself, we used LightGBM (Light Gradient Boosting Machine), which was fine-tuned for accuracy and efficiency, yielding strong predictive results on both validation and testing sets.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mihika-jain/diabetesAnalysis"
+                }, 
+                {
+                    "text": "Report",
+                    "href": "https://drive.google.com/file/d/1I1IPScP0aAWjAxr3Unj7cOKrnLo7w2el/view?usp=sharing"
+                }
+            ],
+            "tags" : [
+                "Python"
+            ]
+        },
+        {
             "image" : "/dev-portfolio/images/projects/spotify.png", 
             "title": "Music Trends through Spotify",
-            "bodyText": "I had been really curious about MongoDB and I love music so I decided to start a personal project to analyze music trends using Spotify’s API. I pulled and stored musicality data like danceability, intrumentalness, liveness, speechiness, etc. Then I came up with an algorithm to decide what attributes were most popular that week.",
+            "bodyText": "I had been really curious about MongoDB and I love music, so I decided to start a personal project to analyze music trends using Spotify's API. I pulled and stored musicality data like danceability, instrumentalness, liveness, speechiness, etc., and organized it in MongoDB for efficient querying and analysis. Then I developed an algorithm to identify which musical attributes were most popular each week, using historical data to track changes in trends over time. This project not only allowed me to explore MongoDB's capabilities but also deepened my understanding of data-driven insights in music analytics.",
             "links": [
                 {
                     "text": "GitHub",
