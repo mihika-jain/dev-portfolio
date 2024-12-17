@@ -28,6 +28,10 @@
                 {
                     "icon": "/dev-portfolio/images/skills/c.png",
                     "title": "C"
+                }, 
+                {
+                    "icon": "/dev-portfolio/images/skills/CUDA.png",
+                    "title": "CUDA"
                 }
             
 

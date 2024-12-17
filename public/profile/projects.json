@@ -1,9 +1,27 @@
 {
     "projects" : [
         {
-            "image" : "/dev-portfolio/images/projects/minitorch.png",
+            "image" : "/dev-portfolio/images/projects/TTT.png",
+            "title": "Finetuning the TTT Model",
+            "bodyText": "After a guest lecture on the newer test-time training (TTT) model being used for applications in humanoid robotics, we decided to see how well the TTT model would generalize to domain specific tasks and fine-tuned the model to both the PubMed and GovReport datasets. By fine-tuning TTT on these specialized datasets, we aim to not only validate its robustness and adaptability across distinct linguistic domains but also explore the broader applicability of long-context RNN architectures for specialized, high-stakes fields like medicine, public policy, and beyond. We utilized the product Gutenberg dataset for pre-training and considered LORA and DPO for fine-tuning.",
+            "links": [
+                {
+                    "text": "Github",
+                    "href": "https://github.com/anyaeross18/ttt-AML"
+                }, 
+                {
+                    "text": "Report",
+                    "href": "https://drive.google.com/file/d/10OGF8cu9NG8MEhAt1-Zi7tPTca7RfaAP/view?usp=sharing"
+                }
+            ],
+            "tags" : [
+                "Python"
+            ]
+        },
+        {
+            "image" : "/dev-portfolio/images/projects/torch.png",
             "title": "Minitorch",
-            "bodyText": "During a semester-long individual project, I developed a streamlined deep learning framework called Minitorch, designed to re-implement the Torch API in Python. I implemented automatic differentiation with both forward and backward propagation to enable efficient gradient computation for neural network training. I also designed tensor operations to support element-wise functions, broadcasting, and reductions, facilitating complex mathematical operations on multi-dimensional arrays. Additionally, I created modules for neural network support, including layers, activation functions, and loss functions, along with utilities for model initialization and parameter management. I designed and optimized the model training processes in a series of modules, enhancing computational efficiency.",
+            "bodyText": "I re-implemented the Torch API in Python. I implemented automatic differentiation with both forward and backward propagation to enable efficient gradient computation for neural network training. I also designed tensor operations to support element-wise functions, broadcasting, and reductions, facilitating complex mathematical operations on multi-dimensional arrays. Additionally, I created modules for neural network support, including layers, activation functions, and loss functions, along with utilities for model initialization and parameter management. I designed and optimized the model training processes with CUDA, enhancing computational efficiency.",
             "links": [
                 {
                     "text": "Minitorch Framework",
@@ -17,7 +35,7 @@
         {
             "image" : "/dev-portfolio/images/projects/dbms.png",
             "title": "Database Management System",
-            "bodyText": "I spent a semester in a team of four developing and optimizing a Database Management System (DBMS) that reads tuples from binary formats, parses SQL queries, and outputs results into binary files. The system supports multiple join operations, including selection, sort-merge join, and index, block, and tuple nested loop joins, along with an indexing schema. Additionally, we optimized the system by using logical and physical plan builders to strategically place intensive operations up or down the left-deep tree. This dynamic programming query optimization algorithm reduced processing time by over 70%. This project not only deepened my understanding of database systems but also developed my teamwork, time management, and communication skills as we worked closely to meet project milestones and refine system performance.",
+            "bodyText": "I developed and optimized a Database Management System (DBMS) that reads tuples from binary formats, parses SQL queries, and outputs results into binary files. The system supports multiple operations including selection, sort-merge join, and index, block, and tuple nested loop joins, along with an indexing schema. Additionally, we optimized the system by using logical and physical plan builders to strategically place intensive operations up or down the left-deep tree. We also used other optimization techniques including selection pushing. This dynamic programming query optimization algorithm reduced processing time by over 70%.",
             "links": [
                 {
                     "text": "GitHub",
@@ -35,7 +53,7 @@
         {
             "image" : "/dev-portfolio/images/projects/ASR.png",
             "title": "Transcription for Spoken Word Project",
-            "bodyText": "I worked in a group of two to create and optimize a speech recognition software tool for multi-word sequences from a basic English lexicon. We used unigram word and silent state probabilities, pruning (to weed out low probability hypotheses), tree structured lexicons, and bigram probabilities to further lower WER (word error rate) from an initial 0.4. This project helped me gain exposure to machine learning models and language modeling. I conducted this project during my study abroad semester and was able to make connections with different students and new staff at the University of Edinburgh.",
+            "bodyText": "I created and optimized a speech recognition software tool for multi-word sequences from a basic English lexicon. We created a weighted finite-state transducer (WFST) for our lexicon and calculating forward computations to evaluate algorithmic efficiency. We adjusted arc weights, used a tree structured lexicon, and integrated unigram word and silent state probabilities (to allow our system to account for pauses between words). We implemented pruning using a Beam Search approach, which allowed us to eliminate low-probability hypotheses and optimize the decoding process. Finally, we implemented a bigram language model that helped us refine the grammar of the output sequences by considering the likelihood of word pairs. All of this helped reduce our WER (word error rate) from an initial 0.4.",
             "links": [
                 {
                     "text": "GitHub",
@@ -44,6 +62,24 @@
                 {
                     "text": "Report",
                     "href": "https://drive.google.com/file/d/1gSYIIpKoU-0gCdcBlquCRputUcQLh_Zq/view?usp=sharing"
+                }
+            ],
+            "tags" : [
+                "Python"
+            ]
+        },
+        {
+            "image" : "/dev-portfolio/images/projects/election.png",
+            "title": "Predicting Swing Voter Status",
+            "bodyText": "During this study we examined the demographic, socioeconomic, and attitudinal factors influencing swing voter behavior in the 2020 U.S. presidential election, using the ANES 1948-2020 Times Series dataset. By analyzing key factors like age, income, education, and political affiliation, this study identifies what distinguishes swing voters from the general electorate. This study also explores their policy preferences on issues such as abortion, government spending, and traditional family values. Predictive models using logistic regression and CatBoost classifiers were developed to forecast swing voter behavior, with the CatBoost model outperforming  logistic regression (74.4% vs 67.05% accuracy). This research offers insights to improve political strategy and foster informed democratic participations.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mihika-jain/electionAnalysis"
+                }, 
+                {
+                    "text": "Report",
+                    "href": "https://drive.google.com/file/d/1JFIVUYjzaSjmVM3uPTPlPzFCcgsC1IrB/view?usp=sharing"
                 }
             ],
             "tags" : [
