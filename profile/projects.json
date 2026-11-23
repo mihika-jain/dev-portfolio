@@ -1,25 +1,77 @@
 {
-    "projects" : [
+    "projects": [
         {
-            "image" : "/dev-portfolio/images/projects/TTT.png",
+            "image": "/dev-portfolio/images/projects/neurotone.png",
+            "title": "Neurotone",
+            "bodyText": "I co-founded Neurotone, a speech analysis app aimed at aiding early dementia detection. We used WavLM transformer embeddings trained on the DementiaNet dataset to extract vocal tendencies from voice samples, achieving an F1 score above 80% and showing promising clinical efficacy. We positioned Neurotone as a B2C platform focused on helping families track and predict future cognitive decline in their loved ones, and we plan to expand our research to other neurodegenerative diseases including Parkinson's and MS.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/RishikSarkar/neurotone"
+                },
+                {
+                    "text": "Pitch Deck",
+                    "href": "/dev-portfolio/Neurotone_Pitch_Deck.pdf"
+                }
+            ],
+            "tags": [
+                "Python",
+                "Speech ML",
+                "Healthcare"
+            ]
+        },
+        {
+            "image": "/dev-portfolio/images/projects/text-to-sql.png",
+            "title": "Fine-Tuning T5 and Gemma for Text-to-SQL",
+            "bodyText": "I fine-tuned the T5 encoder-decoder architecture to translate plain-English questions into SQL queries, then benchmarked the fine-tuned model against several Gemma models. To improve Gemma's output without fine-tuning, I used prompting strategies including in-context learning with varying numbers of randomly sampled examples and chain-of-thought prompting.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mihika-jain/text-to-sql-t5-gemma"
+                }
+            ],
+            "tags": [
+                "Python",
+                "PyTorch",
+                "LLMs"
+            ]
+        },
+        {
+            "image": "/dev-portfolio/images/projects/dnn-optimization.png",
+            "title": "Optimizing Deep Neural Network Performance",
+            "bodyText": "I used Apache TVM to build and accelerate key deep learning operations like 1D and 2D convolutions and matrix multiplication on CPU and GPU, applying hardware-focused optimizations such as tiling, vectorization, and loop unrolling and benchmarking against PyTorch and NumPy references. I also implemented convolution and matrix multiplication techniques including im2col, Winograd, FFT, and SVD, testing numerical precision against computational efficiency. The centerpiece was using SVD-based low-rank approximations to compress neural network weight matrices, achieving significant speedups while maintaining high accuracy on digit recognition.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mihika-jain/dnn-optimization"
+                }
+            ],
+            "tags": [
+                "Python",
+                "TVM",
+                "CUDA"
+            ]
+        },
+        {
+            "image": "/dev-portfolio/images/projects/TTT.png",
             "title": "Finetuning the TTT Model",
             "bodyText": "After a guest lecture on the newer test-time training (TTT) model being used for applications in humanoid robotics, we decided to see how well the TTT model would generalize to domain specific tasks and fine-tuned the model to both the PubMed and GovReport datasets. By fine-tuning TTT on these specialized datasets, we aim to not only validate its robustness and adaptability across distinct linguistic domains but also explore the broader applicability of long-context RNN architectures for specialized, high-stakes fields like medicine, public policy, and beyond. We utilized the product Gutenberg dataset for pre-training and considered LORA and DPO for fine-tuning.",
             "links": [
                 {
                     "text": "Github",
                     "href": "https://github.com/anyaeross18/ttt-AML"
-                }, 
+                },
                 {
                     "text": "Report",
                     "href": "https://drive.google.com/file/d/10OGF8cu9NG8MEhAt1-Zi7tPTca7RfaAP/view?usp=sharing"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Python"
             ]
         },
         {
-            "image" : "/dev-portfolio/images/projects/torch.png",
+            "image": "/dev-portfolio/images/projects/torch.png",
             "title": "Minitorch",
             "bodyText": "I re-implemented the Torch API in Python. I implemented automatic differentiation with both forward and backward propagation to enable efficient gradient computation for neural network training. I also designed tensor operations to support element-wise functions, broadcasting, and reductions, facilitating complex mathematical operations on multi-dimensional arrays. Additionally, I created modules for neural network support, including layers, activation functions, and loss functions, along with utilities for model initialization and parameter management. I designed and optimized the model training processes with CUDA, enhancing computational efficiency.",
             "links": [
@@ -28,84 +80,127 @@
                     "href": "https://minitorch.github.io/"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Python"
             ]
         },
         {
-            "image" : "/dev-portfolio/images/projects/dbms.png",
-            "title": "Database Management System",
-            "bodyText": "I developed and optimized a Database Management System (DBMS) that reads tuples from binary formats, parses SQL queries, and outputs results into binary files. The system supports multiple operations including selection, sort-merge join, and index, block, and tuple nested loop joins, along with an indexing schema. Additionally, we optimized the system by using logical and physical plan builders to strategically place intensive operations up or down the left-deep tree. We also used other optimization techniques including selection pushing. This dynamic programming query optimization algorithm reduced processing time by over 70%.",
+            "image": "/dev-portfolio/images/projects/asr-transcription.png",
+            "title": "Predicting the Most Likely ASR Transcription",
+            "bodyText": "I trained n-gram language models at the word, character, and subword levels (using byte pair encoding), as well as a Transformer model built on an extended PyTorch implementation, using the WSJ dataset. I experimented with smoothing techniques like linear interpolation, n-gram orders, and Transformer architectures. These models score transcription candidates for linguistic plausibility, and I combined those scores with precomputed acoustic similarity scores to predict the most likely transcription for each audio recording.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/odessathompson/DBPrac"
-                }, 
-                {
-                    "text": "Optimization Report",
-                    "href": "https://drive.google.com/file/d/1fJ5gm_cEgoJmRaKAQGTqS6PJKFA4CCsL/view?usp=sharing"
+                    "href": "https://github.com/mihika-jain/asr-transcription-language-models"
                 }
             ],
-            "tags" : [
-                "Java"
+            "tags": [
+                "Python",
+                "PyTorch",
+                "NLP"
             ]
         },
         {
-            "image" : "/dev-portfolio/images/projects/ASR.png",
-            "title": "Transcription for Spoken Word Project",
-            "bodyText": "I created and optimized a speech recognition software tool for multi-word sequences from a basic English lexicon. We created a weighted finite-state transducer (WFST) for our lexicon and calculating forward computations to evaluate algorithmic efficiency. We adjusted arc weights, used a tree structured lexicon, and integrated unigram word and silent state probabilities (to allow our system to account for pauses between words). We implemented pruning using a Beam Search approach, which allowed us to eliminate low-probability hypotheses and optimize the decoding process. Finally, we implemented a bigram language model that helped us refine the grammar of the output sequences by considering the likelihood of word pairs. All of this helped reduce our WER (word error rate) from an initial 0.4.",
+            "image": "/dev-portfolio/images/projects/word-embeddings.png",
+            "title": "Word Embeddings: Word2Vec, BERT, and GPT-2",
+            "bodyText": "I trained word embeddings from scratch using the skip-gram Word2Vec model on the Billion Word Language Model Benchmark corpus, tuning embedding dimensionality, context window size, training data size, negative sampling rate, and unknown-word handling. I then benchmarked embeddings from word2vec, BERT, and GPT-2 in both isolated and context-aware settings, experimenting with model layers, embedding combination strategies, normalization methods, and subword tokenization handling. All embeddings were evaluated with Spearman correlation against human similarity judgments.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/odessathompson/asr_coursework"
-                }, 
-                {
-                    "text": "Report",
-                    "href": "https://drive.google.com/file/d/1gSYIIpKoU-0gCdcBlquCRputUcQLh_Zq/view?usp=sharing"
+                    "href": "https://github.com/mihika-jain/word-embeddings"
                 }
             ],
-            "tags" : [
-                "Python"
+            "tags": [
+                "Python",
+                "PyTorch",
+                "NLP"
             ]
         },
         {
-            "image" : "/dev-portfolio/images/projects/election.png",
-            "title": "Predicting Swing Voter Status",
-            "bodyText": "During this study we examined the demographic, socioeconomic, and attitudinal factors influencing swing voter behavior in the 2020 U.S. presidential election, using the ANES 1948-2020 Times Series dataset. By analyzing key factors like age, income, education, and political affiliation, this study identifies what distinguishes swing voters from the general electorate. This study also explores their policy preferences on issues such as abortion, government spending, and traditional family values. Predictive models using logistic regression and CatBoost classifiers were developed to forecast swing voter behavior, with the CatBoost model outperforming  logistic regression (74.4% vs 67.05% accuracy). This research offers insights to improve political strategy and foster informed democratic participations.",
+            "image": "/dev-portfolio/images/projects/text-classification.png",
+            "title": "Sentiment Analysis and Text Classification",
+            "bodyText": "I implemented perceptron and multilayer perceptron classifiers from scratch for sentiment analysis and topic classification using bag-of-words and custom features. I wrote the perceptron in pure Python and the MLP in PyTorch, experimenting with multiple hidden layers, activation functions (ReLU, tanh, sigmoid), and optimizers (SGD, Adam). I tuned hyperparameters, used GPU batching for speedups, and evaluated the models on held-out test sets.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mihika-jain/electionAnalysis"
-                }, 
-                {
-                    "text": "Report",
-                    "href": "https://drive.google.com/file/d/1JFIVUYjzaSjmVM3uPTPlPzFCcgsC1IrB/view?usp=sharing"
+                    "href": "https://github.com/mihika-jain/text-classification-perceptron-mlp"
                 }
             ],
-            "tags" : [
-                "Python"
+            "tags": [
+                "Python",
+                "PyTorch"
             ]
         },
         {
-            "image" : "/dev-portfolio/images/projects/diabetes.png",
+            "image": "/dev-portfolio/images/projects/diabetes.png",
             "title": "Identifying Trends in Diabetes Patients",
             "bodyText": "Using the PCS (Predictability, Computability, and Stability) framework, I worked in a group of 2 to analyze 2016 and 2017 National Health Interview Survey (NHIS) datasets to build a model that predicts an individual’s diabetes risk factor, supporting preventive health measures. Predictability focused on testing generalizability of model to other datasets; computability emphasized efficient handling of large datasets and minimizing processing time; and stability used bootstrap means to ensure consistency of dataset sampling. For the model itself, we used LightGBM (Light Gradient Boosting Machine), which was fine-tuned for accuracy and efficiency, yielding strong predictive results on both validation and testing sets.",
             "links": [
                 {
                     "text": "GitHub",
                     "href": "https://github.com/mihika-jain/diabetesAnalysis"
-                }, 
+                },
                 {
                     "text": "Report",
                     "href": "https://drive.google.com/file/d/1I1IPScP0aAWjAxr3Unj7cOKrnLo7w2el/view?usp=sharing"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Python"
             ]
         },
         {
-            "image" : "/dev-portfolio/images/projects/spotify.png", 
+            "image": "/dev-portfolio/images/projects/election.png",
+            "title": "Predicting Swing Voter Status",
+            "bodyText": "During this study we examined the demographic, socioeconomic, and attitudinal factors influencing swing voter behavior in the 2020 U.S. presidential election, using the ANES 1948-2020 Times Series dataset. By analyzing key factors like age, income, education, and political affiliation, this study identifies what distinguishes swing voters from the general electorate. This study also explores their policy preferences on issues such as abortion, government spending, and traditional family values. Predictive models using logistic regression and CatBoost classifiers were developed to forecast swing voter behavior, with the CatBoost model outperforming  logistic regression (74.4% vs 67.05% accuracy). This research offers insights to improve political strategy and foster informed democratic participations.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mihika-jain/electionAnalysis"
+                },
+                {
+                    "text": "Report",
+                    "href": "https://drive.google.com/file/d/1JFIVUYjzaSjmVM3uPTPlPzFCcgsC1IrB/view?usp=sharing"
+                }
+            ],
+            "tags": [
+                "Python"
+            ]
+        },
+        {
+            "image": "/dev-portfolio/images/projects/dbms.png",
+            "title": "Database Management System",
+            "bodyText": "I developed and optimized a Database Management System (DBMS) that reads tuples from binary formats, parses SQL queries, and outputs results into binary files. The system supports multiple operations including selection, sort-merge join, and index, block, and tuple nested loop joins, along with an indexing schema. Additionally, we optimized the system by using logical and physical plan builders to strategically place intensive operations up or down the left-deep tree. We also used other optimization techniques including selection pushing. This dynamic programming query optimization algorithm reduced processing time by over 70%.",
+            "links": [
+                {
+                    "text": "Optimization Report",
+                    "href": "https://drive.google.com/file/d/1fJ5gm_cEgoJmRaKAQGTqS6PJKFA4CCsL/view?usp=sharing"
+                }
+            ],
+            "tags": [
+                "Java"
+            ]
+        },
+        {
+            "image": "/dev-portfolio/images/projects/ASR.png",
+            "title": "Transcription for Spoken Word Project",
+            "bodyText": "I created and optimized a speech recognition software tool for multi-word sequences from a basic English lexicon. We created a weighted finite-state transducer (WFST) for our lexicon and calculating forward computations to evaluate algorithmic efficiency. We adjusted arc weights, used a tree structured lexicon, and integrated unigram word and silent state probabilities (to allow our system to account for pauses between words). We implemented pruning using a Beam Search approach, which allowed us to eliminate low-probability hypotheses and optimize the decoding process. Finally, we implemented a bigram language model that helped us refine the grammar of the output sequences by considering the likelihood of word pairs. All of this helped reduce our WER (word error rate) from an initial 0.4.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mihika-jain/asr_labs"
+                },
+                {
+                    "text": "Report",
+                    "href": "https://drive.google.com/file/d/1gSYIIpKoU-0gCdcBlquCRputUcQLh_Zq/view?usp=sharing"
+                }
+            ],
+            "tags": [
+                "Python"
+            ]
+        },
+        {
+            "image": "/dev-portfolio/images/projects/spotify.png",
             "title": "Music Trends through Spotify",
             "bodyText": "I had been really curious about MongoDB and I love music, so I decided to start a personal project to analyze music trends using Spotify's API. I pulled and stored musicality data like danceability, instrumentalness, liveness, speechiness, etc., and organized it in MongoDB for efficient querying and analysis. Then I developed an algorithm to identify which musical attributes were most popular each week, using historical data to track changes in trends over time. This project not only allowed me to explore MongoDB's capabilities but also deepened my understanding of data-driven insights in music analytics.",
             "links": [
@@ -114,23 +209,18 @@
                     "href": "https://github.com/mihika-jain/musicApp"
                 }
             ],
-            "tags" : [
-                "MongoDB", 
+            "tags": [
+                "MongoDB",
                 "Python"
             ]
-        }, 
+        },
         {
-            "image" : "/dev-portfolio/images/projects/graphics.png",
+            "image": "/dev-portfolio/images/projects/graphics.png",
             "title": "Computer Graphics Bot Video Game",
             "bodyText": "I worked in a team of 3 to create a video game focused on computer graphics. We were able to utilize rat tracing, intersection, shading, filtering, texture mapping, particle system manipulation, and cubic Bezier Splices to implement a three-dimensional terrain scape. In the game, a user is attached my converging bots. The user can move, change perspective, and shoot particles. If contact is detected between the user and the bots, their health goes down incrementally until 0 when the game ends. I learned computer graphics principles and gained more experience with working in Typescript.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.coecis.cornell.edu/oet4/CS4620_C2"
-                }
-            ],
-            "tags" : [
-                "Typescript", 
+            "links": [],
+            "tags": [
+                "Typescript",
                 "Computer Graphics"
             ]
         }
