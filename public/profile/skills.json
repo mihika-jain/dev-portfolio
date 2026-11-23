@@ -62,6 +62,10 @@
                     "title": "RAG"
                 },
                 {
+                    "icon": "/dev-portfolio/images/skills/llm-agents.svg",
+                    "title": "LLM Agents"
+                },
+                {
                     "icon": "/dev-portfolio/images/skills/prompt-engineering.svg",
                     "title": "Prompt Engineering"
                 },
