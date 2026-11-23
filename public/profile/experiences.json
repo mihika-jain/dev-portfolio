@@ -8,6 +8,7 @@
                 "Built a RAG pipeline to process and summarize medical records, decreasing case preparation time by 90%.",
                 "Implemented a full end-to-end training pipeline: set up SageMaker infrastructure via AWS CDK, built scripts for data extraction, preprocessing, and training, and fine-tuned Qwen 32B for a medical task. Automated the pipeline with GitHub Actions to track and push the model through each stage.",
                 "Ran feature engineering and feature importance analysis for a prediction model of repeat member engagement.",
+                "Created a case coordinator agent: built tools for information retrieval, a tool-use loop integrated with security protocols, and automated lesson storage based on approver feedback. The agent improves coordinator efficiency by 5x.",
                 "Previously a Junior Developer: integrated AI API calls into the platform to generate case fields for physicians, increasing clinical efficiency 10x, and built an AI analytics platform that measures cosine similarity between approved human-in-the-loop content and model outputs to guide prompt, model, and payload iteration."
             ],
             "dateText": "08/2025 – Present"
