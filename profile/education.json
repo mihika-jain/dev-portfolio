@@ -2,22 +2,23 @@
     "education": [
         {
             "title": "Cornell Tech",
-            "subtitle": "Master of Engineering, Computer Science",
+            "subtitle": "Master of Engineering, Computer Science (Machine Learning + Data Science)",
             "workDescription": [
-                "Product Studio Member: Entrepreneurial studio where you are matched with a NYC startup and are given a problem of theirs to solve in multidisciplinary groups. We were paired with an entertainment tech startup and our focus question was how to maximize returns from music royalty assets.", 
-                "Specialized Classes: Applied Machine Learning, Topics in Data Science, Optimization Methods, Algorithms for Applications"
+                "Product Studio Member: Entrepreneurial studio where you are matched with a NYC startup and are given a problem of theirs to solve in multidisciplinary groups. We were paired with an entertainment tech startup and our focus question was how to maximize returns from music royalty assets.",
+                "Relevant Classes: Applied Machine Learning, Machine Learning Engineering, Optimization Methods, Statistics of Data Science, Applied Causal Inference, Natural Language Processing, Machine Learning Hardware and Systems, Introduction to Red Teaming",
+                "Awards: Follett Family Fellowship Recipient 2024"
             ],
             "dateText": "09/2024 – 05/2025"
         },
         {
             "title": "Cornell University",
-            "subtitle": "Computer Science, College of Engineering",
+            "subtitle": "Bachelor of Science, Computer Science, Minor in Business, College of Engineering",
             "workDescription": [
-                "Cornell Hyperloop project team: I worked on the electrical team in the GUI subteam. We worked on coming up with visualizers to track battery cell data. I worked on cross-disciplinary collaboration, teamwork, and practiced working in an agile development pattern.", 
-                "Sigma Delta Tau: As the panhellenic representative on executive board for Sigma Delta Tau, I met weekly with representatives from every other sorority on campus to discuss prominent issues in greek life and advocate for the women in my community.", 
-                "Society of Women Engineers: On the alumni relations committee for SWE at Cornell I was able to help plan networking events and communication streams between students and alumni in the organization to help cultivate a community of empowered female engineers.", 
-                "Cornell Medium Design Collective: Working with a team of designers to conduct interviews and research for a proposed semesterly project. Our most recent project was a spotify redesign that allowed for easier music sharing and the creation of music auras. Developed UI/UX eye and creativity in design.", 
-                "Cornell Varsity Sailing Team: Spent time as a student Athlete training and competing for Cornell's Varsity Sailing Team as a crew.", 
+                "Cornell Hyperloop project team: I worked on the electrical team in the GUI subteam. We worked on coming up with visualizers to track battery cell data. I worked on cross-disciplinary collaboration, teamwork, and practiced working in an agile development pattern.",
+                "Sigma Delta Tau: As the panhellenic representative on executive board for Sigma Delta Tau, I met weekly with representatives from every other sorority on campus to discuss prominent issues in greek life and advocate for the women in my community.",
+                "Society of Women Engineers: On the alumni relations committee for SWE at Cornell I was able to help plan networking events and communication streams between students and alumni in the organization to help cultivate a community of empowered female engineers.",
+                "Cornell Medium Design Collective: Working with a team of designers to conduct interviews and research for a proposed semesterly project. Our most recent project was a spotify redesign that allowed for easier music sharing and the creation of music auras. Developed UI/UX eye and creativity in design.",
+                "Cornell Varsity Sailing Team: Spent time as a student Athlete training and competing for Cornell's Varsity Sailing Team as a crew.",
                 "Study Abroad: Spent the semester studying at the University of Edinburgh where I was able to integrate myself into a different community and make connections and relationships with Computer Scientists and other students from across the world.",
                 "Women in Computing at Cornell: General Assembly member."
             ],

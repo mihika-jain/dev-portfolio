@@ -1,8 +1,20 @@
 {
     "experiences": [
         {
+            "title": "Machine Learning Engineer",
+            "subtitle": "Summus, New York NY",
+            "workType": "Full-time",
+            "workDescription": [
+                "Built a RAG pipeline to process and summarize medical records, decreasing case preparation time by 90%.",
+                "Implemented a full end-to-end training pipeline: set up SageMaker infrastructure via AWS CDK, built scripts for data extraction, preprocessing, and training, and fine-tuned Qwen 32B for a medical task. Automated the pipeline with GitHub Actions to track and push the model through each stage.",
+                "Ran feature engineering and feature importance analysis for a prediction model of repeat member engagement.",
+                "Previously a Junior Developer: integrated AI API calls into the platform to generate case fields for physicians, increasing clinical efficiency 10x, and built an AI analytics platform that measures cosine similarity between approved human-in-the-loop content and model outputs to guide prompt, model, and payload iteration."
+            ],
+            "dateText": "08/2025 – Present"
+        },
+        {
             "title": "Full Stack Engineer Intern",
-            "subtitle": "Summus, New york NY",
+            "subtitle": "Summus, New York NY",
             "workType": "Internship",
             "workDescription": [
                 "I spent the summer working with both Summus's data and engineering teams. On the data team I was able to build a data model and work on the search architecture for an internal physician search tool that aids in matching members to expert providers. On the engineering team I was able to analyze the model from an implementation standpoint and was able to engage in full stack development to create solutions throughout the internship providing me with a solid foundation in react."
@@ -42,7 +54,6 @@
             "workType": "Mentorship",
             "workDescription": [
                 "I participated in a Microsoft mentorship program to cultivate technical resilience. I received a mentor and worked with them and my mentorship group to forge connection. This program helped me develop a growth mindset and connected me further with the computer science community."
-
             ],
             "dateText": "01/2021 – 05/2021"
         }
