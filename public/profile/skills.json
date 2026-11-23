@@ -1,10 +1,13 @@
 {
     "intro": "",
-    "skills": [{
-     
+    "skills": [
+        {
             "title": "Languages & Databases",
-            "items" : [
-     
+            "items": [
+                {
+                    "icon": "/dev-portfolio/images/skills/python.png",
+                    "title": "Python"
+                },
                 {
                     "icon": "/dev-portfolio/images/skills/java.png",
                     "title": "Java"
@@ -14,43 +17,78 @@
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "/dev-portfolio/images/skills/python.png",
-                    "title": "Python"
+                    "icon": "/dev-portfolio/images/skills/typescript.png",
+                    "title": "TypeScript"
                 },
                 {
                     "icon": "/dev-portfolio/images/skills/mysql.png",
-                    "title": "MySQL"
-                }, 
-                {
-                    "icon": "/dev-portfolio/images/skills/ocaml.png",
-                    "title": "OCaml"
-                }, 
+                    "title": "SQL"
+                },
                 {
                     "icon": "/dev-portfolio/images/skills/c.png",
                     "title": "C"
-                }, 
+                },
+                {
+                    "icon": "/dev-portfolio/images/skills/ocaml.png",
+                    "title": "OCaml"
+                },
                 {
                     "icon": "/dev-portfolio/images/skills/CUDA.png",
                     "title": "CUDA"
-                }
-            
-
-        ]},
-        {
-            "title": "Frameworks & Technologies",
-            "items" : [
+                },
                 {
-                    "icon": "/dev-portfolio/images/skills/react.png",
-                    "title": "React"
+                    "icon": "/dev-portfolio/images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "/dev-portfolio/images/skills/css.png",
+                    "title": "CSS"
                 }
             ]
         },
         {
-            "title" : "Tools & Platforms",
+            "title": "Machine Learning & AI",
+            "items": [
+                {
+                    "icon": "/dev-portfolio/images/skills/pytorch.png",
+                    "title": "PyTorch"
+                },
+                {
+                    "icon": "/dev-portfolio/images/skills/huggingface.png",
+                    "title": "Hugging Face"
+                },
+                {
+                    "icon": "/dev-portfolio/images/skills/rag.svg",
+                    "title": "RAG"
+                },
+                {
+                    "icon": "/dev-portfolio/images/skills/prompt-engineering.svg",
+                    "title": "Prompt Engineering"
+                },
+                {
+                    "icon": "/dev-portfolio/images/skills/fine-tuning.svg",
+                    "title": "LLM Fine-Tuning"
+                }
+            ]
+        },
+        {
+            "title": "Cloud & MLOps",
             "items": [
                 {
                     "icon": "/dev-portfolio/images/skills/aws.png",
                     "title": "AWS"
+                },
+                {
+                    "icon": "/dev-portfolio/images/skills/sagemaker.png",
+                    "title": "SageMaker"
+                },
+                {
+                    "icon": "/dev-portfolio/images/skills/opensearch.png",
+                    "title": "OpenSearch"
+                },
+                {
+                    "icon": "/dev-portfolio/images/skills/github-actions.png",
+                    "title": "GitHub Actions"
                 },
                 {
                     "icon": "/dev-portfolio/images/skills/git.png",
@@ -61,5 +99,15 @@
                     "title": "Azure"
                 }
             ]
-    }
-]}
+        },
+        {
+            "title": "Frameworks & Technologies",
+            "items": [
+                {
+                    "icon": "/dev-portfolio/images/skills/react.png",
+                    "title": "React"
+                }
+            ]
+        }
+    ]
+}

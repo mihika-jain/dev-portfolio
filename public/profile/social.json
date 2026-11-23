@@ -1,16 +1,16 @@
 {
     "social": [
         {
-            "network" : "linkedin",
+            "network": "linkedin",
             "href": "https://www.linkedin.com/in/mihika-jain2/"
         },
         {
-            "network" : "github",
+            "network": "github",
             "href": "https://github.com/mihika-jain"
         },
         {
-            "network" : "email",
-            "href": "mailto:mj434@cornell.edu"
+            "network": "email",
+            "href": "mailto:mihikaj02@gmail.com"
         }
     ]
 }

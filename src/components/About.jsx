@@ -37,6 +37,14 @@ function About(props) {
       thumbnail: data?.imageSource8,
     },
     {
+      original: data?.imageSource9,
+      thumbnail: data?.imageSource9,
+    },
+    {
+      original: data?.imageSource10,
+      thumbnail: data?.imageSource10,
+    },
+    {
       original: data?.imageSource2,
       thumbnail: data?.imageSource2,
     },
